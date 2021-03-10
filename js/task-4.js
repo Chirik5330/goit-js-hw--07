@@ -6,9 +6,7 @@ const increment = () => {
   ++counterValueEl.textContent;
 };
 const decrement = () => {
-  if (counterValueEl.textContent > 0)
     --counterValueEl.textContent;
-  
 };
 decrementBtnEl.addEventListener('click', decrement);
 incrementBtnEl.addEventListener('click', increment);
